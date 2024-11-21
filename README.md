@@ -1,0 +1,1 @@
+Travel Master Tours: A React-based app to explore and compare top tours globally. Features include fetching tours from an API, interactive removal of tours, and toggling tour details. Built with dynamic rendering, state management, and styled for an engaging user experience

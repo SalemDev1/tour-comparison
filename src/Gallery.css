@@ -1,0 +1,85 @@
+/* Styling the main container */
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #F4F4F4; 
+}
+
+/* Styling the header */
+.gallery-header {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #4285F4; 
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Styling each tour card */
+.tour-card {
+  border: 2px solid #34A853; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #FFFFFF; 
+}
+
+.tour-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Styling the tour image */
+.tour-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #EA4335; 
+}
+
+/* Styling the tour name */
+.tour-name {
+  font-size: 1.8rem;
+  color: #FBBC05; 
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* Styling the tour price $$$ */
+.tour-price {
+  font-size: 1.4rem;
+  color: #34A853; 
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+/* Styling the tour description */
+.tour-info {
+  font-size: 1rem;
+  color: #5F6368; 
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Styling not interested buttons */
+.tour-button {
+  background-color: #EA4335; 
+  color: #FFFFFF; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.tour-button:hover {
+  background-color: #ff0904; /* Darker red for hover effect */
+  transform: scale(1.05);
+}
+
